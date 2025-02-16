@@ -1,0 +1,69 @@
+body, html{
+    display: flex;
+    background-color: lightgray;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    /* width: 100vh; */
+    font-family: 'Arial', sans-serif;
+}
+
+#container{
+    border: 2px solid blue;
+    display: flex;
+    width: 700px;
+    height: 700px;
+    flex-flow: column; 
+    margin-block: 4rem;
+    box-shadow: 0 0 10px 0 gray;
+    flex-wrap: wrap;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    padding-block: 2rem;
+}
+
+.row{
+    border:white;
+}
+
+.eraser{
+    background-color: yellow;
+    padding-inline: 20px;
+    padding-block: 15px;
+}
+
+.gridSet{
+    background-color: lightblue;
+    padding-inline: 20px;
+    padding-block: 15px;
+}
+
+.random{
+    background-color: lightgreen;
+    padding-inline: 20px;
+    padding-block: 15px;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 1rem;
+    box-shadow: 0 0 2px 0 white;
+}
+
+button:hover{
+    box-shadow: 0 0 2px 0 black;
+}
+
+button:focus{
+    background: none;
+}
+
+button:active{
+    background: none;
+}
+
+
